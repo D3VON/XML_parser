@@ -1,0 +1,42 @@
+Assignment 2
+Advanced Object Oriented Programming
+by Devon McBride
+B Number: B00135581
+
+---->this is my second submission, much improved.
+
+This assignment is unfinished.  I intend to submit a better version
+at a later date.
+
+         - Please run 'make'
+         - Then run 'parser_test'  
+
+Problems:
+========
+1. I can't solve memory leaks.  Don't know how.
+2. Parser lets 'bad' xml go when it should fail.
+
+Note: 
+====
+My program seems to work adequately on 'big1.xml', but fails with 'text.xml'.  --it used to work with that one, but stopped recently.
+ 
+"GOOD" EXAMPLE OUTPUT USING 'big1.xml'
+=====================================
+
+remote11:~/cs440_Adv_OOP/assign2_xml_parser> ./parser_test -f test_code/good_xml/big1.xml > out
+
+remote11:~/cs440_Adv_OOP/assign2_xml_parser> cat out | tail
+                  End: :test9
+                End: :test8
+              End: :test7
+            End: :test6
+          End: :test5
+        End: :test4
+      End: :test3
+    End: :test2
+  End: :test1
+End: :root
+
+
+
+
